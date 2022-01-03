@@ -1,9 +1,9 @@
 /* GRID AREA */
 
-.container {
+.containere {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 0.2fr 2.5fr 0.3fr;
+	grid-template-rows: 1em 2.5fr 0.3fr;
 	grid-auto-columns: 1fr;
 	gap: 0px 0px;
 	grid-auto-flow: row;

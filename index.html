@@ -11,7 +11,7 @@
 </head>
 
 
-<body class="container">
+<body class="containere">
 
     <!-- start header -->
 
@@ -79,17 +79,27 @@
         <!-- start content -->
 
         <div class="contain">
-            <aside class="aside"> aside </aside>
-            <div class="dataCursos">
-                <div id="here">
-                    <div id="ulListado">
-                        <P>Usted compro</P>
+            <aside class="aside">
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: <span id="total"></span> AR$;</p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+            <div id="dataCursos" class="dataCursos ">
+                <div class="inline">
+                    <div class="row">
+                        <!-- Elementos generados a partir del JSON -->
+                        <div id="items" class="col-sm-8 row"></div>
+                        <!-- Carrito -->
 
                     </div>
                 </div>
+
             </div>
-        </div>
-        <!-- end content -->
+            <!-- end content -->
     </main>
     <!-- end main -->
 
